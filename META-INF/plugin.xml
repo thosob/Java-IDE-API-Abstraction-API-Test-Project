@@ -1,0 +1,36 @@
+<idea-plugin version="2">
+    <id>de.uos.idetestapplication</id>
+    <name>IDE TestApplication</name>
+    <version>1.0</version>
+    <vendor email="tsobieroy@uni-osnabrueck.de" url="http://www.uos.de">Universität Osnabrück</vendor>
+
+    <description><![CDATA[
+      Enter short description for your plugin here.<br>
+      <em>most HTML tags may be used</em>
+    ]]></description>
+
+    <change-notes><![CDATA[
+      Add change notes here.<br>
+      <em>most HTML tags may be used</em>
+    ]]>
+    </change-notes>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="141.0"/>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!--<fileEditorProvider implementation="JavaModelEditorProvider"/>-->
+    </extensions>
+
+    <application-components>
+        <component>
+          <implementation-class>de.uos.intellij.ActionSetup</implementation-class>
+        </component>
+    </application-components>
+<!--
+    <project-components>
+        <component>
+            <implementation-class>ProjectHandler</implementation-class>
+        </component>
+    </project-components> -->
+</idea-plugin>

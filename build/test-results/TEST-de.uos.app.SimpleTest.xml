@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.uos.app.SimpleTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-03-27T12:50:23" hostname="DESKTOP-2CNCDIF" time="0.036">
+  <properties/>
+  <testcase name="funnyTest" classname="de.uos.app.SimpleTest" time="0.008"/>
+  <testcase name="InitializeTest" classname="de.uos.app.SimpleTest" time="0.024"/>
+  <testcase name="testSth" classname="de.uos.app.SimpleTest" time="0.004"/>
+  <system-out><![CDATA[Diese Nachricht ist nicht zu Ã¼bersehen.
+testing the injected methof sth():
+Yeehaa! A Method from the IApp Implementation!!!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

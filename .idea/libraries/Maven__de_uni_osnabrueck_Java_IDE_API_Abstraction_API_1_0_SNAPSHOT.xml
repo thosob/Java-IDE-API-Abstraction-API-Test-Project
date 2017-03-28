@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: de.uni-osnabrueck:Java-IDE-API-Abstraction-API:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/de/uni-osnabrueck/Java-IDE-API-Abstraction-API/1.0-SNAPSHOT/Java-IDE-API-Abstraction-API-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/de/uni-osnabrueck/Java-IDE-API-Abstraction-API/1.0-SNAPSHOT/Java-IDE-API-Abstraction-API-1.0-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/de/uni-osnabrueck/Java-IDE-API-Abstraction-API/1.0-SNAPSHOT/Java-IDE-API-Abstraction-API-1.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

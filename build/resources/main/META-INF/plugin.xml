@@ -1,0 +1,14 @@
+<idea-plugin>
+  <id>universityosnabrueck.testapplication_ide</id>
+  <name>TestApplication_IDE</name>
+  <version>1.0</version>
+  <vendor>about:blank</vendor>
+  <description>Test Plugin</description>
+  <change-notes/>
+  <actions>
+    <action class="org.intellij.examples.simple.plugin.HelloAction" id="SayHello" text="Say Hello">
+      <add-to-group group-id="ToolsMenu"/>
+      <add-to-group group-id="WelcomeScreen.QuickStart"/>
+    </action>
+  </actions>
+</idea-plugin>
