@@ -10,7 +10,7 @@ plugins {
 }
 
 dependencies{
-    compile files('lib/Java-IDE-API-Abstraction-API-1.0-SNAPSHOT.jar')    
+    compile files('lib/Java-IDE-API-Abstraction-API-1.0-SNAPSHOT-jar-with-dependencies.jar')
     compile files('lib/afterburner.fx-1.7.0.jar')
     testCompile files('lib/junit-4.12.jar')
     compile fileTree(dir: 'lib', include: '*.jar')   

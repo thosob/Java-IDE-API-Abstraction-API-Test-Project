@@ -6,7 +6,7 @@
   <description>Test Plugin</description>
   <change-notes/>
   <actions>
-    <action class="org.intellij.examples.simple.plugin.HelloAction" id="SayHello" text="Say Hello">
+    <action class="de.uos.intellij.ActionSetup" id="ActionSetup" text="Give it to me baby!">
       <add-to-group group-id="ToolsMenu"/>
       <add-to-group group-id="WelcomeScreen.QuickStart"/>
     </action>

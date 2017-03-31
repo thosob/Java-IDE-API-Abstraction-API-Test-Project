@@ -9,6 +9,7 @@ package de.uos.app;
 import com.airhacks.afterburner.injection.Injector;
 import de.uos.apptest.IApp;
 import de.uos.intellij.ActionSetup;
+import de.uos.netbeans.Installer;
 import de.uos.netbeans.Startable;
 import org.junit.Test;
 
@@ -21,8 +22,7 @@ public class SimpleTest extends TestIApp {
         System.out.println("Diese Nachricht ist nicht zu übersehen.");
         MainApp iAppImpl = Injector.instantiateModelOrService(MainApp.class);
     
-        Injector.setModelOrService(IApp.class, iAppImpl);        
-    
+        Injector.setModelOrService(IApp.class, iAppImpl);
         // let the subclass perform the injection
         super.setUp();
     }
@@ -32,13 +32,14 @@ public class SimpleTest extends TestIApp {
      */
     @Test
     public void InitializeTest(){
-        Startable StartingPoint = Injector.instantiateModelOrService(Startable.class);  
-        StartingPoint.run();
-        Injector.setModelOrService(Startable.class, StartingPoint);
-        super.setUp();
         
-        ActionSetup AS = Injector.instantiateModelOrService(ActionSetup.class);  
-
+       /* Installer StartingPoint = Injector.instantiateModelOrService(Installer.class);
+        StartingPoint.restored();
+        Injector.setModelOrService(Installer.class, StartingPoint);
+        super.setUp(); */
+        
+        ActionSetup AS = Injector.instantiateModelOrService(ActionSetup.class);
+       // AS.actionPerformed(null);
         Injector.setModelOrService(ActionSetup.class, AS);
         super.setUp();
     }

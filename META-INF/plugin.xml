@@ -19,18 +19,18 @@
     <idea-version since-build="141.0"/>
 
     <extensions defaultExtensionNs="com.intellij">
-        <!--<fileEditorProvider implementation="JavaModelEditorProvider"/>-->
+        <fileEditorProvider implementation="JavaModelEditorProvider"/>
     </extensions>
 
     <application-components>
         <component>
-          <implementation-class>de.uos.intellij.ActionSetup</implementation-class>
+          <implementation-class>ActionSetup</implementation-class>
         </component>
     </application-components>
-<!--
+
     <project-components>
         <component>
             <implementation-class>ProjectHandler</implementation-class>
         </component>
-    </project-components> -->
+    </project-components>
 </idea-plugin>
